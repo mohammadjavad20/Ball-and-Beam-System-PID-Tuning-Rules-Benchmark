@@ -1,0 +1,65 @@
+# ---------- MATLAB ----------
+# Autosave and backup files
+*.asv
+*.m~
+*.mlx~
+*.autosave
+*.mat~
+
+# Compiled MEX binaries
+*.mex*
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.mexmaca64
+
+# Code generation output
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+
+# Profiler / publish output
+html/
+publish/
+
+# ---------- Simulink ----------
+# Simulation cache and generated folders
+slprj/
+*.slxc
+*.slx.autosave
+*.slx.original
+*.slx.bak
+*.mdl.autosave
+*.mdl.r20*
+*.sldd.bak
+*.sim
+*.rpt
+
+# Simscape / data logs
+*.mldatx.autosave
+simulink_cache/
+
+# ---------- Large temporary data ----------
+# Raw logged data not needed to reproduce results
+*.log
+*.tmp
+*.temp
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ---------- Editors / IDEs ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- Archives ----------
+*.rar
+*.zip
+*.7z
